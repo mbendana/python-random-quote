@@ -9,7 +9,7 @@ def main():
 
 	last = len(quotes) - 1
 	rnd = random.randint(0, last)
-	print(quotes[rnd])
+	print(quotes[rnd], end='')
   #print(quotes)
 
 if __name__== "__main__":
